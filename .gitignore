@@ -2,6 +2,10 @@
 
 # dependencies
 /node_modules
+/proiect-ae/ae-app/node_modules
+/proiect-ae/ae-app/package-lock.json
+/proiect-ae/RESTfulAPI/node_modules
+/proiect-ae/RESTfulAPI/package-lock.json
 /.pnp
 .pnp.js
 
