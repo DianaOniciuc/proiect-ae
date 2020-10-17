@@ -1,0 +1,28 @@
+.product-list {
+    width: 80vw;
+}
+
+.list-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid cornflowerblue;
+    margin-bottom: 10px;
+}
+
+.product-list-content > div:nth-child(2n+1){
+    background-color: cornflowerblue;
+}
+
+.product-list-content > div:nth-child(2n+1) > input{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.add-product {
+   margin-left: auto;
+    width: 160px;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

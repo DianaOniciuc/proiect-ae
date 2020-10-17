@@ -1,0 +1,15 @@
+.basket-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-small {
+   max-width: 80px;
+    max-height: 90px;
+}
+
+.basket-item > div {
+    margin-right: 5px;
+}

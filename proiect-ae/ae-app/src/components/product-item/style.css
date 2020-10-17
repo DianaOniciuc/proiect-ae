@@ -1,0 +1,45 @@
+.li-denumire {
+    width: 200px;
+}
+
+div > input {
+    margin-right: 5px;
+}
+
+div > input:disabled {
+   background-color: white;
+   border: none;
+}
+
+.li-pret , .li-cantitate {
+    width: 100px;
+    text-align: center;
+}
+
+.li-pret {
+   margin-right: 90px;
+}
+
+.li-cantitate {
+   margin-right: 30px;
+}
+
+.li-cantitate + button,  .li-cantitate + button:hover{
+    color: black;
+}
+
+.li-cantitate + div > button,  .li-cantitate + div > button:hover{
+    color: black;
+}
+
+
+.product-list-item {
+    display: flex;
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+.delete-icon {
+    margin-left: auto;
+    margin-right: 20px;
+}
